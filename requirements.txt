@@ -1,0 +1,12 @@
+coverage==5.5
+flake8==3.9.0
+requests==2.26.0
+undecorated==0.3.0
+cached-property==1.5.2
+garminconnect==0.1.44
+pytz==2022.1
+python-dateutil==2.8.2
+paramiko==2.10.3
+# Airflow providers (http://airflow.apache.org/docs/apache-airflow-providers/packages-ref.html)
+apache-airflow-providers-http==2.0.1
+apache-airflow-providers-mysql==2.1.1

@@ -1,0 +1,62 @@
+{
+  "garmin": {
+    "conn_type": "http",
+    "description": "",
+    "host": "",
+    "login": "<garmin login>",
+    "password": "<garmin password>",
+    "schema": "",
+    "port": null,
+    "extra": ""
+  },
+  "influxdb": {
+    "conn_type": "influxdb",
+    "description": "",
+    "host": "192.168.2.190",
+    "login": "",
+    "password": null,
+    "schema": "http",
+    "port": 8086,
+    "extra": "{\"token\": \"<influx db api token>\", \"org_name\": \"<influx org>\", \"bucket\": \"<default bucket>\"}"
+  },
+  "ipinfo_api": {
+    "conn_type": "http",
+    "description": "",
+    "host": "https://ipinfo.io",
+    "login": "",
+    "password": "<ipinfo token>",
+    "schema": "",
+    "port": null,
+    "extra": ""
+  },
+  "ipserver": {
+    "conn_type": "http",
+    "description": "",
+    "host": "192.168.2.150",
+    "login": "<ssh login>",
+    "password": "<ssh password>",
+    "schema": "",
+    "port": null,
+    "extra": ""
+  },
+  "redis": {
+    "conn_type": "redis",
+    "description": "",
+    "host": "airflow-redis",
+    "login": "",
+    "password": "<as set up in local.env>",
+    "schema": "",
+    "port": 6379,
+    "extra": ""
+  },
+  "vpnserver": {
+    "conn_type": "http",
+    "description": "",
+    "host": "192.168.2.165",
+    "login": "<ssh login>",
+    "password": "<ssh password>",
+    "schema": "",
+    "port": null,
+    "extra": ""
+  }
+}
